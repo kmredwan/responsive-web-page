@@ -1,0 +1,230 @@
+/* nav_bar_icon */
+.nav_bar_icon{
+  display: none;
+  cursor: pointer;
+}
+
+
+/* tablat mobile css */
+
+@media (max-width: 767px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .container{
+    width: 90%;
+    margin:0 auto
+  }
+  /* header */
+
+ 
+    .logo_manu_wapper{
+     
+
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+     
+     
+      
+    }
+
+    
+    /* logo */
+
+    .logo_manu_wapper .logo{
+      align-items: flex-start ;
+    
+
+    }
+
+    .logo img {
+      width: 200px;
+  }
+
+   
+ 
+   .manu ul{ 
+     width: 100%;
+     /* display: flex; */
+     align-items: center;
+     display: none;
+     justify-content: space-between;
+     flex-direction: column;
+     transition: 0.3s ease-in;
+    
+   }
+
+   .active ul{
+     display: flex;
+    
+   }
+     
+  
+    .manu ul li{
+      padding-bottom: 10px ;
+      
+    }
+
+    .nav_bar_icon{
+      width: 30px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+     
+    }
+
+    /* boostSales_phone_wapper */
+
+    .boostSales_phone_wapper{
+     flex-direction: column;
+    }
+    .phone{
+      margin-top: 50px;
+    }
+
+
+    /* benefites */
+
+    .video_cart_wapper{
+      flex-direction: column;
+    }
+
+    .benefites_hading{
+
+      flex-direction: column;
+
+      
+    }
+
+    .demo_logo{
+      margin-bottom: 20px;
+    }
+
+    .benefites_content{
+      
+      width: 80%;
+      
+    }
+
+    .benefites_content p{
+      align-items: center;
+      display: block;
+      margin-left: 25px;
+    }
+
+    .benefites_wapper{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+  .banar{
+    flex-direction: column;
+  }
+  .banar_wapper{
+  flex-direction: column;
+  }
+  .banar_wapper .banar_right{
+  width: 444px;
+  z-index: 5;
+ 
+  }
+  .banar_left {
+    width: 87%;
+    z-index: 14;
+  }
+
+  .banar_left h2 {
+    font-size: 26px;
+    margin-top: 63px;
+    width: 100%;
+    margin-left: -102px;
+    line-height: 36px;
+  }
+
+  .banar_right h5 {
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 26px;
+    z-index: 55;
+  }
+
+  /* payment_security start  */
+
+  .flex .cart_facility_content{
+    width: 90%
+  }
+
+  .payment_security_wapper {
+
+    width: 200px;
+  }
+
+  .cart_facility , .cart-img{
+    width: 90%;
+  }
+  .cart_facility{
+    margin-right: 30px;
+  }
+
+
+  .payment_platfroms_wapper{
+    flex-direction: column;
+  }
+
+  .payment_platfroms_left{
+    margin-bottom: 50px;
+  }
+
+
+  /* faq */
+
+  .faq_ans p {
+    width: 400px;
+  }
+  /* footer */
+  footer{
+    flex-direction: column;
+    position: relative;
+  }
+  .contact{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact .adderss {
+    margin-left: 95px;
+    margin-top: 20px;
+  }
+
+  footer .container ul {
+    flex-direction: column;
+  
+  }
+
+  footer .container ul li {
+    margin-bottom: 10px;
+  }
+
+  footer .container ul li:first-child{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom:15px;
+  
+  }
+
+
+  footer .logo {
+    margin: 41px 102px;
+    text-align: left;
+  }
+
+
+
+    
+}
